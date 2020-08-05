@@ -43,8 +43,6 @@ When you have completed this code pattern, you will understand how to:
 
 ### Create the Watson services
 
-> Note: You can skip this step if you will be using the `Deploy to Cloud Foundry on IBM Cloud` button below. That option automatically creates the services and binds them (providing their credentials) to the application.
-
 Provision the following services:
 
 * **Speech to Text**
