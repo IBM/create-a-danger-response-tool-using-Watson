@@ -6,6 +6,14 @@ How can we develop a solution that will reduce the response time of first respon
 
 ![architecture1](doc/source/images/flow_chart.png)
 
+## Flow
+
+1. User selects their preferred language.
+1. User presses the microphone button and captures the input audio.
+1. The audio is streamed to Speech to Text using a WebSocket.
+1. The transcribed text from Speech to Text is displayed and updated.
+1. The transcribed text is sent to NLU for danger analysis and output is displayed.
+
 Built with React components and a Node.js server, the app will capture audio input and stream it to a Watson Speech to Text service. After the input speech is transcribed, it will be sent to a Watson Natural Language Understanding service that will identify, categorize, and score the danger threat in the text. Both the input speech and the danger analysis will be displayed in the app. 
 
 The key aspect of this tool is the NLU. Using Knowledge Studio, we will train a custom machine learning model for the ‘relations’ feature of the Watson NLU in order to drive the decision-making process of identifying the danger. We will create an ‘entity’ for the danger itself, and corresponding subcategories for each of the dangers-of-interest, for example ‘fire’ and ‘flood’. We will also create an ‘entity’ for the object that the danger is acting on. 
@@ -26,15 +34,6 @@ When you have completed this code pattern, you will understand how to:
 
 > **NOTE**: This code pattern includes instructions for running Watson services on IBM Cloud or with the Watson API Kit on IBM Cloud Pak for Data.
 > Click [here](https://www.ibm.com/products/cloud-pak-for-data) for more information about IBM Cloud Pak for Data.
-
-
-## Flow
-
-1. User selects their preferred language.
-1. User presses the microphone button and captures the input audio.
-1. The audio is streamed to Speech to Text using a WebSocket.
-1. The transcribed text from Speech to Text is displayed and updated.
-1. The transcribed text is sent to NLU for danger analysis and output is displayed.
 
 ## Steps
 
