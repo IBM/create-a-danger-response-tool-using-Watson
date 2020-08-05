@@ -4,7 +4,7 @@ In moments of a disaster such as fires, floods, and shootings, victims need firs
 
 How can we develop a solution that will reduce the response time of first responders, and provide a positive impact for those who need it most? Well, when a victim is normally in danger, they call 911 and begin a dialogue with a dispatcher. While this conversation is ongoing, the Watson Danger Response Tool will screen the conversation for select dangers including fires and floods. If one of those dangers are identified, the appropriate authorities will be immediately alerted, thus shaving off precious seconds and sometimes even minutes off the response time. In this code pattern, using the power of Watson AI, we will create this danger response web app.
 
-Here's a demo of the final product for inspiration to get through this code pattern!
+[![IMAGE ALT TEXT](doc/source/images/front_page.png)](https://www.youtube.com/watch?v=zU36K6mqU44&feature=youtu.be "Watson Danger Response Demo")
 
 ![architecture1](doc/source/images/flow_chart.png)
 
@@ -95,7 +95,6 @@ The services are not available by default. An administrator must install them on
 ## Deploy the server here
 
  [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) 
-
 ## Use the web app
 
 > NOTE: The app was developed using Chrome on macOS. Browser compatibility issues are still being worked out.
