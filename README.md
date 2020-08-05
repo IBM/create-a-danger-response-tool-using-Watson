@@ -4,11 +4,9 @@ In moments of a disaster such as fires, floods, and shootings, victims need firs
 
 How can we develop a solution that will reduce the response time of first responders, and provide a positive impact for those who need it most? Well, when a victim is normally in danger, they call 911 and begin a dialogue with a dispatcher. While this conversation is ongoing, the Watson Danger Response Tool will screen the conversation for select dangers including fires and floods. If one of those dangers are identified, the appropriate authorities will be immediately alerted, thus shaving off precious seconds and sometimes even minutes off the response time. In this code pattern, using the power of Watson AI, we will create this danger response web app.
 
-Here's a demo of the final product to inspire you to complete the code pattern!
+Below a demo of the final product to inspire you to complete the code pattern!
 
 [![IMAGE ALT TEXT](doc/source/images/front_page.png)](https://www.youtube.com/watch?v=zU36K6mqU44&feature=youtu.be "Watson Danger Response Demo")
-
-![architecture1](doc/source/images/flow_chart.png)
 
 ## Flow
 
@@ -17,6 +15,9 @@ Here's a demo of the final product to inspire you to complete the code pattern!
 1. Within the NLU, a custom Knowledge Studio machine learning model processes the text for danger.
 1. The danger analysis from the machine learning model is then sent to the NLU.
 1. The final output of the NLU is presented, and decision is made whether or not to alert the authorities.
+
+![architecture1](doc/source/images/flow_chart.png)
+
 
 Built with React components and a Node.js server, the app will capture audio input and stream it to a Watson Speech to Text service. After the input speech is transcribed, it will be sent to a Watson Natural Language Understanding service that will identify, categorize, and score the danger threat in the text. Both the input speech and the danger analysis will be displayed in the app. 
 
