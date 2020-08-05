@@ -95,6 +95,13 @@ The services are not available by default. An administrator must install them on
 
 </details>
 
+## Prerequisites (Local)
+
+If you would like to run this pattern locally, without any cloud services, then all you need is VSCode and the IBM Credentials
+  * [VSCode](https://code.visualstudio.com/)
+  * [Node v12.18.2](https://nodejs.org/en/download/)
+  * Run 'npm-install' in VSCode Terminal
+
 ## Deploy the server here
 
  [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) 
