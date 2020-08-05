@@ -92,12 +92,8 @@ The services are not available by default. An administrator must install them on
 
 </details>
 
-## Deploy the server
+## Deploy the server here
 
-Click on one of the options below for instructions on deploying the Node.js server.
-
-|   |   |   |   |
-| - | - | - | - |
 | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) | 
 
 ## Use the web app
