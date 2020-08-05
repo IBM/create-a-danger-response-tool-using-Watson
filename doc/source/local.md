@@ -13,7 +13,7 @@ This document shows how to run the `watson-danger-response` application on your 
 Clone `watson-danger-response` locally. In a terminal, run:
 
 ```bash
-git clone https://github.com/IBM/watson-danger-response
+git clone https://github.com/arjungujral24/Watson-Danger-Response
 cd watson-danger-response
 ```
 
