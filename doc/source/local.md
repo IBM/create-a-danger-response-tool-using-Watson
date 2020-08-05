@@ -1,6 +1,6 @@
 # Run locally
 
-This document shows how to run the `watson-speech-translator` application on your local machine.
+This document shows how to run the `watson-danger-response` application on your local machine.
 
 ## Steps
 
@@ -10,11 +10,11 @@ This document shows how to run the `watson-speech-translator` application on you
 
 ### Clone the repo
 
-Clone `watson-speech-translator` locally. In a terminal, run:
+Clone `watson-danger-response` locally. In a terminal, run:
 
 ```bash
-git clone https://github.com/IBM/watson-speech-translator
-cd watson-speech-translator
+git clone https://github.com/IBM/watson-danger-response
+cd watson-danger-response
 ```
 
 ### Configure credentials
