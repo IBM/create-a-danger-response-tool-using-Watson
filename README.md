@@ -8,11 +8,11 @@ How can we develop a solution that will reduce the response time of first respon
 
 ## Flow
 
-1. User selects their preferred language.
-1. User presses the microphone button and captures the input audio.
-1. The audio is streamed to Speech to Text using a WebSocket.
-1. The transcribed text from Speech to Text is displayed and updated.
-1. The transcribed text is sent to NLU for danger analysis and output is displayed.
+1. Audio input is captured by Watson Speech-to-Text service.
+1. Once input text is transcribed, it is sent to the Watson Natural Language Understanding (NLU) service.
+1. Within the NLU, a custom Knowledge Studio machine learning model processes the text for danger.
+1. The danger analysis from the machine learning model is then sent to the NLU.
+1. The final output of the NLU is presented, and decision is made whether or not to alert the authorities.
 
 Built with React components and a Node.js server, the app will capture audio input and stream it to a Watson Speech to Text service. After the input speech is transcribed, it will be sent to a Watson Natural Language Understanding service that will identify, categorize, and score the danger threat in the text. Both the input speech and the danger analysis will be displayed in the app. 
 
