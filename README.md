@@ -94,7 +94,7 @@ The services are not available by default. An administrator must install them on
 
 ## Deploy the server here
 
-| [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) | 
+ [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) 
 
 ## Use the web app
 
