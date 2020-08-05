@@ -6,9 +6,6 @@ How can we develop a solution that will reduce the response time of first respon
 
 Here's a demo of the final product for inspiration to get through this code pattern!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zU36K6mqU44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-
 ![architecture1](doc/source/images/flow_chart.png)
 
 ## Flow
