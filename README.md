@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # Building a Watson Danger Response Tool with Custom NLU Domain Model
 
 In moments of a disaster such as fires, floods, and shootings, victims need first response care as soon as possible. For example, the 2018 ‘Camp Fire’ in Northern California wiped out the town of Paradise, killing 85 people, and causing $16.5 billion in damages. In this case, and in many similar situations, the difference between a few seconds in response time meant not only lives saved, but millions and even billions of dollars salvaged in the potential destruction of valuable assets. 
